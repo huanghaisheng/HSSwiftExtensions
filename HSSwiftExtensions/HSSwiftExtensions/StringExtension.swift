@@ -10,7 +10,7 @@ import Foundation
 
 @available(iOS 8.0, *)
 
-extension String {
+public extension String {
 
     //是否是移动电话号码
     func isMobilePhone() -> Bool {

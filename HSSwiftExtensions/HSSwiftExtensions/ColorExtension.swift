@@ -11,7 +11,7 @@ import Foundation
 
 @available(iOS 8.0, *)
 
-extension UIColor {
+public extension UIColor {
 
     //通过字符串“#fafafa”，“0xfafafa”获取颜色, alpha透明度，默认1.0
     static func color(with hexString: String, alpha: Float) -> UIColor {

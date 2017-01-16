@@ -11,7 +11,7 @@ import Foundation
 
 @available(iOS 8.0, *)
 
-extension UIImage {
+public extension UIImage {
 
     /**
      * @param markImage 水印图

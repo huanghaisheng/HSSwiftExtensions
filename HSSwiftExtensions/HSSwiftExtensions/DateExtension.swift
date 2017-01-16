@@ -12,7 +12,7 @@ import Foundation
 
 @available(iOS 8.0, *)
 
-extension Date {
+public extension Date {
 
     //获取当前日期的时间戳(毫秒)
     static func timestampWithCurrentDate() -> TimeInterval {
