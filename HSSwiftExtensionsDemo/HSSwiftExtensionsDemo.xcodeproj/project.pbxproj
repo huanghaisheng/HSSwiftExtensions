@@ -13,7 +13,23 @@
 		46CBA1521E77D6230046177F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CBA1501E77D6230046177F /* Main.storyboard */; };
 		46CBA1541E77D6230046177F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CBA1531E77D6230046177F /* Assets.xcassets */; };
 		46CBA1571E77D6230046177F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CBA1551E77D6230046177F /* LaunchScreen.storyboard */; };
+		C029A79D1E7AA3CB001822E4 /* HSSwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C029A79C1E7AA3CB001822E4 /* HSSwiftExtensions.framework */; };
+		C029A79E1E7AA3CB001822E4 /* HSSwiftExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C029A79C1E7AA3CB001822E4 /* HSSwiftExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C029A79F1E7AA3CB001822E4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C029A79E1E7AA3CB001822E4 /* HSSwiftExtensions.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00FDAE73C780E05E3E832227 /* Pods-HSSwiftExtensionsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSSwiftExtensionsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSSwiftExtensionsDemo/Pods-HSSwiftExtensionsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -26,6 +42,7 @@
 		46CBA1561E77D6230046177F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46CBA1581E77D6230046177F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2AFB25ED95995FD3483ECBF /* Pods-HSSwiftExtensionsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSSwiftExtensionsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSSwiftExtensionsDemo/Pods-HSSwiftExtensionsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C029A79C1E7AA3CB001822E4 /* HSSwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HSSwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03DAE3A2C73C3E7A11FF195D /* Pods_HSSwiftExtensionsDemo.framework in Frameworks */,
+				C029A79D1E7AA3CB001822E4 /* HSSwiftExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +61,7 @@
 		410950B237550ADDC3BF40C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C029A79C1E7AA3CB001822E4 /* HSSwiftExtensions.framework */,
 				26BAA73F584F7DC7311E784E /* Pods_HSSwiftExtensionsDemo.framework */,
 			);
 			name = Frameworks;
@@ -101,6 +120,7 @@
 				46CBA1471E77D6230046177F /* Resources */,
 				4473143D06EB734ACD8B8ACB /* [CP] Embed Pods Frameworks */,
 				1861A6B2CC6194FE4041C046 /* [CP] Copy Pods Resources */,
+				C029A79F1E7AA3CB001822E4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -377,6 +397,7 @@
 				46CBA15D1E77D6230046177F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
